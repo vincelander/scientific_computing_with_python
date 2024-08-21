@@ -1,1 +1,1 @@
-This repository consists of python mini projects on scientific computing.
+This repository consists of python projects on scientific computing.
