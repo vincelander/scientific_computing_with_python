@@ -4,7 +4,6 @@
 
     Aim: Work with numerical computations and string manipulation.
 """
-
 def verify_card_number(card_number):
     sum_of_odd_digits = 0
     card_number_reversed = card_number[::-1]
@@ -21,11 +20,10 @@ def verify_card_number(card_number):
             number = (number // 10) + (number % 10)
         sum_of_even_digits += number
     total = sum_of_odd_digits + sum_of_even_digits
-    # print(total)
     return total % 10 == 0
 
 def main():
-    card_number = '4111-1111-4555-1141'
+    card_number = '4111-1111-4555-1100'
     card_translation = str.maketrans({'-': '', ' ': ''})
     translated_card_number = card_number.translate(card_translation)
 

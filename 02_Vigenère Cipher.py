@@ -1,6 +1,6 @@
 # # Vigenere Cipher Encryption/Decryption Function
-text = 'mrttaqrhknsw ih puggrur'
-custom_key = 'happycoding'
+text = 'vpxz mj p dwwm rkqrtjx, kwrbtw hht tdvozcx oc mv!'
+custom_key = 'cipherproject'
 
 def vigenere(message, key, direction=1):
     key_index = 0
@@ -33,5 +33,9 @@ def decrypt(message, key):
 
 print(f'\nEncrypted text: {text}')
 print(f'Key: {custom_key}')
+
+# encryption = encrypt(text, custom_key)
+# print(f'\nEncrypted text: {encryption}\n')
+
 decryption = decrypt(text, custom_key)
 print(f'\nDecrypted text: {decryption}\n')
